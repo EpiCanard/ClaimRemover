@@ -36,8 +36,8 @@ libraryDependencies ++= Seq(
     /* Minecraft plugin dependencies */
     "br.net.fabiozumbi12.RedProtect" % "RedProtect-Core" % "7.6.2" % "provided" intransitive(),
     "br.net.fabiozumbi12.RedProtect" % "RedProtect-Spigot" % "7.6.2" % "provided" intransitive(),
-    "ru.tehkode" % "PermissionsEx" % "1.23.4" % "provided" from "file://" + baseDirectory.value + "/lib/PermissionsEx-1.23.4.jar" intransitive(),
-    "litebans" % "api" % "0.3.1" % "provided" from "file://" + baseDirectory.value + "/lib/LiteBansAPI.jar" intransitive()
+    "ru.tehkode" % "PermissionsEx" % "1.23.4" % "provided" from "file://" + baseDirectory.value + "/libs/PermissionsEx-1.23.4.jar" intransitive(),
+    "litebans" % "api" % "0.3.1" % "provided" from "file://" + baseDirectory.value + "/libs/LiteBansAPI.jar" intransitive()
 )
 
 /* Assembly */
