@@ -30,7 +30,7 @@ libraryDependencies ++= Seq(
     "io.circe" %% "circe-parser" % "0.12.0-RC4",
     "io.circe" %% "circe-yaml" % "0.11.0-M1",
     "org.bukkit" % "bukkit" % "1.14.4-R0.1-SNAPSHOT" % "provided",
-    "xyz.janboerman" % "ScalaLoader" % "0.12.1-SNAPSHOT" % "provided",
+    "com.github.Jannyboy11.ScalaPluginLoader" % "ScalaLoader" % "0.12.2" % "provided",
     /* "com.github.Jannyboy11.ScalaPluginLoader" % "ScalaLoader" % "0.12.0-SNAPSHOT" % "provided", */
 
     /* Minecraft plugin dependencies */
